@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+.env
+
+# Poetry
+.cache/
+virtualenvs/
+
+# Docker
+*.log
+*.pid
+*.sock
+*.env
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+*.cover
+coverage.xml
+*.log
+nosetests.xml
+coverage/
+
+# GitHub Actions
+.github/workflows/*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+.python-version
+
+# MacOS
+.DS_Store
+
+# AWS EC2 key files (if applicable)
+*.pem

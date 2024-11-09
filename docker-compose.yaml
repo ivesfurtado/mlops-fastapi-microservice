@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  fastapi-service:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - MODEL_PATH=/app/models/model.pkl
